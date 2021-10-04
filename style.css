@@ -102,6 +102,14 @@ body, ul, li, h1, h2, a{
   }
   section.join h2{
     font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+  }
+  section.join h2:hover{
+    outline: 5px solid gray;
+    outline: -5px white;
+    transition: all ease-in-out 500ms;
   }
   form input{
     margin: 20px 0;
